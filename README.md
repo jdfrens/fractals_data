@@ -1,19 +1,15 @@
-# Functional, Concurrent, Parallel Computation of Fractals
+# Data Files for Specifying Fractals
 
-This is an old, abadoned repo.  All of the interesting code has been moved to other repos.  I leave this one here for historical reasons.
+YAML files that specify fractals.
 
-## Haskell code
+These are used by
+* https://github.com/jdfrens/fractals_elixir
+* Some future solution written in Rust.
 
-This is probably terribly out of date and not a good example of Haskell (if it ever was).  I leave it here for reference.  If I return to it, I will probably create a new repository for it.
+Read those repos for more information.
 
-## Erlang code
+## History
 
-This was never good code, and I abandoned it long ago.  I'm writing a fractal generator in Elixir instead.
-
-## Elixir code
-
-Check out the separate (forked) repository for my Elixir solution: https://github.com/jdfrens/fractals_elixir
-
-## Rust code
-
-I'm going to write a solution in Rust.  No really.  I'm writing this section in this README so that I _have_ to do it!
+I started with one repo for playing around with fractals in multiple programming languages:
+https://github.com/jdfrens/mandelbrot.  My Elixir solution started to get a little too big to share the repo with other
+languages, and
