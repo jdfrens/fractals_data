@@ -1,0 +1,12 @@
+# Changelog
+
+* The "old repo" is https://github.com/jdfrens/mandelbrot which has a lot of history in its commits.
+* This repo was created from the old repo with everything but the data files deleted.
+* The "Elixir version" or "Elixir code" or "Elixir whatever" is https://github.com/jdfrens/fractals_elixir which is a
+clone of the old repo with everything but the Elixir solution removed.
+
+## v0.1.0 2018-11-16
+
+* First version with a long history from the old repo.
+* Format is very flat.
+* Kept up-to-date with Elixir solution; probably not good for the Haskell solution back in the old repo.
