@@ -5,6 +5,10 @@
 * The "Elixir version" or "Elixir code" or "Elixir whatever" is https://github.com/jdfrens/fractals_elixir which is a
 clone of the old repo with everything but the Elixir solution removed.
 
+## v0.2.0 2018-11-26
+
+* New format with nested configuration.
+
 ## v0.1.0 2018-11-16
 
 * First version with a long history from the old repo.

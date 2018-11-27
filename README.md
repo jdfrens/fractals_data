@@ -13,6 +13,31 @@ These are used by
 
 Read those repos for more information.
 
+## Format
+
+```yaml
+fractal:
+  type: Julia
+  max_iterations: 255
+  c: -0.5+-0.24254i
+color:
+  type: Random
+  max_intensity: 255
+image:
+  size: 512x384
+  upperLeft: -2.0+1.5i
+  lowerRight: 2.0+-1.5i
+engine:
+  type: stage
+  chunk_size: 128
+output:
+  directory: "images"
+  filename: "julia-awesome.png"
+  ppm_file: "different-name-for-no-good-reason.ppm"
+```
+
+Most everything has a default value.  Each object with a `type` may have their own options that you can set.
+
 ## History
 
 I started with one repo for playing around with fractals in multiple programming languages:

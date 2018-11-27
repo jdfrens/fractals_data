@@ -1,5 +1,8 @@
-fractal: BurningShip
-color: Green
-size: 1024x768
-upperLeft: -1.8+0.055i
-lowerRight: -1.7+-0.02i
+fractal:
+  type: BurningShip
+color:
+  type: Green
+image:
+  size: 1024x768
+  upperLeft: -1.8+0.055i
+  lowerRight: -1.7+-0.02i
