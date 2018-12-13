@@ -33,7 +33,6 @@ engine:
 output:
   directory: "images"
   filename: "julia-awesome.png"
-  ppm_file: "different-name-for-no-good-reason.ppm"
 ```
 
 Most everything has a default value.  Each object with a `type` may have their own options that you can set.
