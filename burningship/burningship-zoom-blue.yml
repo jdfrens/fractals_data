@@ -1,6 +1,6 @@
 fractal:
   type: BurningShip
-color:
+color_scheme:
   type: Blue
 image:
   size: 1024x768

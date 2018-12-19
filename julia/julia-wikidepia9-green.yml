@@ -1,7 +1,7 @@
 fractal:
   type: Julia
   c: 0.7269+0.1889i
-color:
+color_scheme:
   type: Green
 image:
   size: 512x384

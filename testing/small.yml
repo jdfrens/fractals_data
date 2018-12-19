@@ -1,6 +1,6 @@
 fractal:
   type: Mandelbrot
-color:
+color_scheme:
   type: BlackOnWhite
 image:
   size: 10x10

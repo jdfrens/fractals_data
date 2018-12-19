@@ -20,9 +20,8 @@ fractal:
   type: Julia
   max_iterations: 255
   c: -0.5+-0.24254i
-color:
+color_scheme:
   type: Random
-  max_intensity: 255
 image:
   size: 512x384
   upperLeft: -2.0+1.5i
@@ -33,6 +32,7 @@ engine:
 output:
   directory: "images"
   filename: "julia-awesome.png"
+  max_intensity: 255
 ```
 
 Most everything has a default value.  Each object with a `type` may have their own options that you can set.

@@ -1,7 +1,7 @@
 fractal:
   type: Julia
   c: 0.70176+-0.3842i
-color:
+color_scheme:
   type: Random
 image:
   size: 512x384

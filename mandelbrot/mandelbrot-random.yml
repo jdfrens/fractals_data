@@ -1,6 +1,6 @@
 fractal:
   type: Mandelbrot
-color:
+color_scheme:
   type: Random
 image:
   size: 512x384

@@ -1,7 +1,7 @@
 fractal:
   type: Mandelbrot
   max_iterations: 512
-color:
+color_scheme:
   type: Gray
 image:
   size: 1024x768

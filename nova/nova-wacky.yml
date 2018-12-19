@@ -4,7 +4,7 @@ fractal:
   p: 2.5+0.0i
   c: 0.0+1.0i
 seed: 666
-color:
+color_scheme:
   type: Random
 image:
   size: 1024x1024

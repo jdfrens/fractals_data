@@ -1,7 +1,7 @@
 fractal:
   type: Newton
 seed: 42
-color:
+color_scheme:
   type: Random
 image:
   size: 512x512
