@@ -1,6 +1,6 @@
 fractal:
   type: Mandelbrot
-  max_iterations: 32
+  max_iterations: 16
 color_scheme:
   type: Blue
 image:
