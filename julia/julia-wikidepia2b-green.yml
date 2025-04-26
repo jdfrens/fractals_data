@@ -1,6 +1,7 @@
 fractal:
   type: Julia
   c: -0.4+0.6i
+  max_iterations: 55
 color_scheme:
   type: Green
 image:
