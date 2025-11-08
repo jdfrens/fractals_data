@@ -1,0 +1,16 @@
+# High Detail Julia Set
+# "San Marco" fractal with high iteration count
+
+fractal:
+  type: Julia
+  # The "San Marco" fractal - produces a pattern resembling a basilica
+  c: -0.75+0.0i
+  max_iterations: 1024
+
+color_scheme:
+  type: Red
+
+image:
+  size: 1920x1080
+  upperLeft: -2.0+1.5i
+  lowerRight: 2.0+-1.5i

@@ -1,0 +1,14 @@
+# Minimal Julia Configuration
+# Uses default size (1024x768) and default max_iterations (128)
+
+fractal:
+  type: Julia
+  # The "Douady's rabbit" fractal
+  c: -0.123+0.745i
+
+color_scheme:
+  type: WhiteOnBlack
+
+image:
+  upperLeft: -1.5+1.5i
+  lowerRight: 1.5+-1.5i
