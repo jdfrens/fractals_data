@@ -1,0 +1,14 @@
+# Mandelbrot with Explicit max_iterations
+# Demonstrates overriding the default value of 128
+
+fractal:
+  type: Mandelbrot
+  max_iterations: 512
+
+color_scheme:
+  type: Gray
+
+image:
+  size: 1024x768
+  upperLeft: -2.0+1.2i
+  lowerRight: 1.2+-1.2i

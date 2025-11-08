@@ -1,0 +1,21 @@
+# Complete Mandelbrot Set Configuration Example
+# This file demonstrates all available options for the parser
+
+fractal:
+  type: Mandelbrot
+  # max_iterations is optional and defaults to 128 if omitted
+  max_iterations: 512
+
+color_scheme:
+  # Available types: BlackOnWhite, Blue, Gray, Green, Red, WhiteOnBlack
+  type: Blue
+
+image:
+  # Size in format WIDTHxHEIGHT (defaults to 1024x768 if omitted)
+  size: 800x600
+  
+  # Complex number coordinates defining the viewing window
+  # Format: real+imaginaryi (e.g., -2.0+1.2i)
+  # The standard Mandelbrot viewing window:
+  upperLeft: -2.0+1.2i
+  lowerRight: 1.2+-1.2i

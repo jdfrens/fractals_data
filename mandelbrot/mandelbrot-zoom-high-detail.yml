@@ -1,0 +1,15 @@
+# High Detail Mandelbrot Zoom
+# Zoomed into an interesting region with high iteration count
+
+fractal:
+  type: Mandelbrot
+  max_iterations: 2048
+
+color_scheme:
+  type: Green
+
+image:
+  size: 1920x1080
+  # Zoomed into the "seahorse valley" region
+  upperLeft: -0.75+0.1i
+  lowerRight: -0.74+-0.1i

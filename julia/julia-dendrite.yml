@@ -1,0 +1,16 @@
+# Julia Set - Dendrite Pattern
+# Classic "dendrite" Julia set
+
+fractal:
+  type: Julia
+  # Produces a dendrite (tree-like) pattern
+  c: 0.0+1.0i
+  max_iterations: 256
+
+color_scheme:
+  type: Green
+
+image:
+  size: 1024x1024
+  upperLeft: -1.5+1.5i
+  lowerRight: 1.5+-1.5i
