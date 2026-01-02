@@ -1,0 +1,9 @@
+fractal:
+  type: BurningShip
+  max_iterations: 512
+color_scheme:
+  type: Blue
+image:
+  size: 1024x768
+  upperLeft: -1.77+0.03i
+  lowerRight: -1.74+0.0i
